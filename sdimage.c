@@ -142,7 +142,7 @@ int main(int argc, char **argv)
 	bcb.aDriverInfo[0].u32ChipNum = 0;
 	bcb.aDriverInfo[0].u32DriverType = 0;
 	bcb.aDriverInfo[0].u32Tag = bcb.u32PrimaryBootTag;
-	bcb.aDriverInfo[0].u32FirstSectorNumber = mbr.part[i].start + 1;
+	bcb.aDriverInfo[0].u32FirstSectorNumber = mbr.part[i].start + 4;
 
 	bcb.aDriverInfo[1].u32ChipNum = 0;
 	bcb.aDriverInfo[1].u32DriverType = 0;
